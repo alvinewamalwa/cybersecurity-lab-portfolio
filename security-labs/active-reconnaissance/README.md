@@ -18,14 +18,16 @@ I used Nmap to perform network discovery and detailed scanning of the DMZ networ
   
 - I performed service version detection to identify applications running on specific ports.
   ![Service Version Detection](screenshots/nmap_III_service-version-detection-port21.png)
+  I discovered that the version of FTP running on the computer is vsftpd 3.0.3
   
 - I ran an aggressive scan (`-A`) and discovered accessible resources on the FTP service.
   ![Aggressive Scan](screenshots/nmap_IV_aggressive-scan-ftp-enumeration.png)
+  I found 4 files on the FTP server are accessible through this connection
 
 **What I discovered:**
 - Active hosts: 7
 - Open ports: 21, 22, 53, 80, 139, 445
-- Notable finding: I found that the FTP server is configured to permit anonymous logins, this weakness allowed me to log invto the FTP server.
+- Notable finding: I found that the FTP server is configured to permit anonymous logins, this weakness allowed me to log into the FTP server.
 
 ---
 
