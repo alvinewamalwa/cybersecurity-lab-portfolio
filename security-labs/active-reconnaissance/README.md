@@ -20,6 +20,7 @@ I used Nmap to perform network discovery and detailed scanning of the DMZ networ
   ![Service Version Detection](screenshots/nmap_III_service-version-detection-port21.png)
   
 - I ran an aggressive scan (`-A`) and discovered accessible resources on the FTP service.
+  ![Aggressive Scan](screenshots/nmap_IV_aggressive-scan-ftp-enumeration.png)
 
 **What I discovered:**
 - Active hosts: 7
