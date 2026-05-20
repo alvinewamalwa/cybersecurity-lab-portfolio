@@ -14,14 +14,14 @@ I used Nmap to perform network discovery and detailed scanning of the DMZ networ
   ![Network Discovery](screenshots/nmap_I_network-discovery-and-default-scan.png)
 
 - I used OS detection (`-O`) to determine the operating system of the target machine.
+- ![OS Detection](screenshots/nmap_II_os-detection-scan.png)
 - I performed service version detection to identify applications running on specific ports.
 - I ran an aggressive scan (`-A`) and discovered accessible resources on the FTP service.
 
 **What I discovered:**
-- Active hosts: [add your result]
-- Open ports: [add your result]
-- Services running: [add your result]
-- Notable finding: [e.g., FTP allowed file access]
+- Active hosts: 7
+- Open ports: 21, 22, 53, 80, 139, 445
+- Notable finding: I found that the FTP server is configured to permit anonymous logins, this weakness allowed me to log invto the FTP server.
 
 ---
 
