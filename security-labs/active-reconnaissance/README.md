@@ -61,11 +61,12 @@ I also performed packet crafting:
 
   
 - I compared multiple packets to observe differences in responses.
+  ![Packet Comparison Analysis](screenshots/scapy_custom_II_icmp-packet-comparison-firewall-behavior.png)
+  ie: for packet number 2 and 3 No flag returned I therefore could deduce that, it is likely that a firewall is silently filtering traffic rather than actively responding. This behavior is typical of a stateful firewall configured to drop uncolicited packets, making detection harder. 
 
 **What I discovered:**
-- Types of packets observed: [your result]
-- Packet counts: [your result]
-- Notable behavior: [your result]
+- Types of packets observed: ARP, IP
+- Notable behavior: No flag returned
 
 ---
 
