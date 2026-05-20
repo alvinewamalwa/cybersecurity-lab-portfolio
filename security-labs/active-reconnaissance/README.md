@@ -9,6 +9,7 @@ In this lab, I performed active reconnaissance on a DMZ network (10.6.6.0/24) as
 I used Nmap to perform network discovery and detailed scanning of the DMZ network.
 
 - I executed a discovery scan to identify active hosts on the 10.6.6.0/24 network.
+  ![Network Discovery](screenshots/nmap_I_network-discovery-and-default-scan.png)
 - I discovered multiple live hosts and isolated the suspicious host (10.6.6.23).
 - I performed a default scan on the target and identified open ports and running services.
 - I used OS detection (`-O`) to determine the operating system of the target machine.
