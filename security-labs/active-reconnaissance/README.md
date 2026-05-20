@@ -84,6 +84,7 @@ I used tcpdump and Wireshark to capture and analyze live network traffic.
 - I saved the captured traffic into a `.pcap` file.
 
 I then analyzed the traffic using Wireshark:
+![Routing Information](screenshotswireshark_II_pcap_analysis-in-wireshark.png)
 
 - I opened the `.pcap` file and inspected packet-level details.
 - I identified source and destination IP addresses.
@@ -91,6 +92,8 @@ I then analyzed the traffic using Wireshark:
 - I analyzed communication patterns between systems.
 
 **What I discovered:**
+After analyzing the packet capture I found that typing a website URL into my browser for my PC to perform DNS query to the DNS server's IP address, provides me with names(URLs) and IP addresses of sites a user visits. Hence knowing websites that are commonly visited by users can be valuable when formulating social engineering attacks.
+
 
 
 ---
@@ -107,9 +110,7 @@ This behavior suggests the presence of a firewall or filtering mechanism designe
 
 ---
 
-## Evidence
 
-I have included screenshots of all commands, outputs, and analysis in the `screenshots/` directory.
 
 ---
 
