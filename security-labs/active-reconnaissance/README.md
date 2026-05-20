@@ -14,8 +14,11 @@ I used Nmap to perform network discovery and detailed scanning of the DMZ networ
   ![Network Discovery](screenshots/nmap_I_network-discovery-and-default-scan.png)
 
 - I used OS detection (`-O`) to determine the operating system of the target machine.
-- ![OS Detection](screenshots/nmap_II_os-detection-scan.png)
+  ![OS Detection](screenshots/nmap_II_os-detection-scan.png)
+  
 - I performed service version detection to identify applications running on specific ports.
+  ![Service Version Detection](screenshots/nmap_III_service-version-detection-port21.png)
+  
 - I ran an aggressive scan (`-A`) and discovered accessible resources on the FTP service.
 
 **What I discovered:**
