@@ -79,7 +79,7 @@ I used tcpdump and Wireshark to capture and analyze live network traffic.
 
 ![Interface Identification](screenshots/wireshark_I_default-gateway-and-dns-info.png)
   
-- I checked DNS configuration using `/etc/resolv.conf`.
+- I checked DNS configuration using `/etc/resolv.conf`.I found it to be 192.168.100.1
 - I captured network traffic using `tcpdump` on the `eth0` interface.
 - I saved the captured traffic into a `.pcap` file.
 
@@ -91,9 +91,7 @@ I then analyzed the traffic using Wireshark:
 - I analyzed communication patterns between systems.
 
 **What I discovered:**
-- Interface used: [your result]
-- Type of traffic captured: [your result]
-- DNS / browsing insights: [your result]
+
 
 ---
 
