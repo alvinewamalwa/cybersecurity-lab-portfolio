@@ -21,9 +21,9 @@ Screenshot 1:
 ![Lab Screenshot](screenshots/01-ping-target-10.6.6.23.png)
 
 
-Results of running:
+Results of running:ping -c5 10.6.6.23
 
-ping -c5 10.6.6.23
+
 Script Logic (if/then)
 
 I used a mousepad text editor to create the script and implemented an if/then sequence.
@@ -73,7 +73,7 @@ Screenshot 5:
 (Scan results showing six open ports)
 
 Script Modification (Enumeration)
-
+As seen in the previous step, the target at 10.6.6.23mhas open ports that could indicate a samba server(ports 139 and 445 are open).
 I modified the script to enumerate shares on the target to run enum4linux.
 
 Screenshot 6: 
@@ -110,13 +110,19 @@ Bash
 Native to Linux/Unix systems
 Ideal for system administration and command automation
 Lightweight and fast for simple tasks
+
+
 Python
 Easy to read and write
 Extensive libraries for networking, security, and automation
 Widely used in penetration testing tools
+
+
 Ruby
 Known for its use in frameworks like Metasploit
 Flexible and powerful for exploit development
+
+
 PowerShell
 Native to Windows environments
 Strong for system administration and enterprise automation
