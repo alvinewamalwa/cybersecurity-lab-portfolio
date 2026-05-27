@@ -16,7 +16,11 @@ Target Availability Check
 
 I first started with pinging the target host at 10.6.6.23 to ensure that it is available on the network.
 
-Screenshot 1: 01-ping-target-10.6.6.23.png
+Screenshot 1:
+
+![Lab Screenshot](screenshots/01-ping-target-10.6.6.23.png)
+
+
 Results of running:
 
 ping -c5 10.6.6.23
@@ -24,7 +28,11 @@ Script Logic (if/then)
 
 I used a mousepad text editor to create the script and implemented an if/then sequence.
 
-Screenshot 2: 02-bash-if-then-logic.png
+Screenshot 2:
+
+![Lab Screenshot 2](screenshots/02-bash-if-then-logic.png)
+
+
 (Mousepad text editor showing the if/then sequence)
 
 Automating the Nmap Scan
@@ -33,7 +41,11 @@ I edited the script to enter the commands that will run the Nmap scan, and the r
 
 scan_results.txt
 
-Screenshot 3: 03-nmap-command-in-script.png
+Screenshot 3:
+
+![Lab Screenshot 3](screenshots/03-nmap-command-in-script.png)
+
+
 (Script showing Nmap command and output redirection)
 
 Script Execution
@@ -42,21 +54,33 @@ I ran the command:
 
 ./recon.sh 10.6.6.23
 
-Screenshot 4: 04-running-recon-script.png
+Screenshot 4:
+
+![Lab Screenshot 4](screenshots/04-running-recon-script.png)
+
+
 (Execution of the script)
 
 Reviewing Scan Results
 
 I viewed the results of the scan_results.txt and discovered the six ports open as shown in the screenshot.
 
-Screenshot 5: 05-nmap-scan-results.png
+Screenshot 5:
+
+![Lab Screenshot 5](screenshots/05-nmap-scan-results.png)
+
+
 (Scan results showing six open ports)
 
 Script Modification (Enumeration)
 
 I modified the script to enumerate shares on the target to run enum4linux.
 
-Screenshot 6: 06-enum4linux-added.png
+Screenshot 6: 
+
+![Lab Screenshot 6](screenshots/06-enum4linux-added.png)
+
+
 (Script updated to include enumeration)
 
 Enumeration Results
@@ -67,7 +91,11 @@ I ran the command:
 
 I then viewed the results stored in the scan_results.txt file. The screenshot only captures the part that displays which files were found on the target.
 
-Screenshot 7: 07-enum4linux-results.png
+Screenshot 7: 
+
+![Lab Screenshot 7](screenshots/07-enum4linux-results.png)
+
+
 (Output showing discovered files/shares)
 
 Additional Automation Technique
