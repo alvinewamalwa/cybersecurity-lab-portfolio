@@ -43,3 +43,13 @@ A script that retrieves geolocation and network information for a given IP addre
 File: `ip-geolocation-lookup.py`
 
 ---
+
+## VI) Banner Grabbing
+
+
+- Port scanning of common services
+- Detection of open ports
+- Banner grabbing for service identification
+- Error handling for stable scanning
+
+  File: `port_scanner_banner_grab.py`
