@@ -6,7 +6,8 @@ This repository documents my ongoing hands-on cybersecurity practical labs, tool
 
 The work presented here demonstrates practical understanding of how attacks are conducted, how they can be detected, and how systems can be monitored and defended. This section contains practical labs with screenshots to make them easier to understand. The labs cover reconnaissance, exploitation simulation, defensive analysis, automation of scans, SET etc 
 
-# Purpose: These labs were conducted to understand attacker behavior and techniques, with the goal of improving the ability to analyze, detect, and respond to security threats from a defensive standpoint.
+# Purpose
+These labs were conducted to understand attacker behavior and techniques, with the goal of improving the ability to analyze, detect, and respond to security threats from a defensive standpoint.
 
 
 ## Networking
@@ -31,13 +32,13 @@ This section documents practical networking tasks performed using Linux, with a 
 
 ## Python Tools
 
-This section contains Python-based cybersecurity tools for automation, analysis, and reconnaissance.
+In this section, I present the Python tools I used during the security labs to perform the following activities:
 
-- Port scanning tool
-- Password strength checker
-- Authentication log analyzer
-- Log file analyzer
-- IP geolocation lookup tool
+- Port scanning 
+- Password strength checking
+- Authentication log analyzing
+- Log file analyzing
+- IP geolocation lookup 
 - etc.
 
   # Purpose
@@ -46,12 +47,12 @@ This section contains Python-based cybersecurity tools for automation, analysis,
 ---
 
 ## Skills Demonstrated
--Network reconnaissance and analysis
--Vulnerability identification and exploitation (controlled environment)
--Log analysis and interpretation
--Traffic and connection monitoring
--Security tool development using Python
--Documentation and reporting of findings
+* Network reconnaissance and analysis
+* Vulnerability identification and exploitation (controlled environment)
+* Log analysis and interpretation
+* Traffic and connection monitoring
+* Security tool development using Python
+* Documentation and reporting of findings
 
 ---
 Disclaimer
