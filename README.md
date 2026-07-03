@@ -1,6 +1,8 @@
-# Security-operations-lab
+# Cisco Ethical Hacking
 
-This repository documents my ongoing hands-on cybersecurity practical labs, tools, and analysis performed in a controlled environment. The work reflects a practical approach to understanding how systems are attacked, how networks behave, and how security analysis can be performed using both manual and automated techniques.
+This repository documents my hands-on cybersecurity practice conducted as part of the Cisco Ethical Hacking course, where I followed structured lab exercises designed to simulate real-world attack and defense scenarios. As part of the setup, I deployed a Kali Linux virtual machine, which served as the primary environment for performing all security testing, analysis, and tool development.
+
+The work captured here reflects a practical, lab-driven approach to understanding offensive and defensive security concepts, including how systems are exploited, how network traffic behaves under different conditions, and how security events can be analyzed using both manual techniques and custom-built Python tools. All activities were performed within controlled lab environments as instructed by the course
 
 ## Security Labs
 
