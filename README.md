@@ -4,15 +4,15 @@ This repository documents my hands-on cybersecurity practice conducted as part o
 
 The work captured here reflects a practical, lab-driven approach to understanding offensive and defensive security concepts, including how systems are exploited, how network traffic behaves under different conditions, and how security events can be analyzed using both manual techniques and custom-built Python tools. All activities were performed within controlled lab environments as instructed by the course
 
-## Security Labs
+# Security Labs
 
 The work presented here demonstrates practical understanding of how attacks are conducted, how they can be detected, and how systems can be monitored and defended. This section contains practical labs with screenshots to make them easier to understand. The labs cover reconnaissance, exploitation simulation, defensive analysis, automation of scans, SET etc 
 
-# Purpose
+## Purpose
 These labs were conducted to understand attacker behavior and techniques, with the goal of improving the ability to analyze, detect, and respond to security threats from a defensive standpoint.
 
 
-## Networking
+# Networking
 
 This section documents practical networking tasks performed using Linux, with a focus on analyzing network behavior and understanding how systems communicate within a network.
 
@@ -24,7 +24,7 @@ This section documents practical networking tasks performed using Linux, with a 
 - Domain and network information lookup
 - etc.
 
-  # Purpose
+  ## Purpose
   The goal of this section is to demonstrate the ability to use Linux-based tools to inspect, analyze, and interpret network activity—an essential skill in cybersecurity for detecting anomalies and investigating potential security incidents.
 
 ---
@@ -32,7 +32,7 @@ This section documents practical networking tasks performed using Linux, with a 
 
 
 
-## Python Tools
+# Python Tools
 
 In this section, I present the Python tools I used during the security labs to perform the following activities:
 
@@ -43,12 +43,12 @@ In this section, I present the Python tools I used during the security labs to p
 - IP geolocation lookup 
 - etc.
 
-  # Purpose
+  ## Purpose
    To demonstrate how automation can be used to improve efficiency in security operations, assist in detecting suspicious activity, and support analysis workflows.
 
 ---
 
-## Skills Demonstrated
+# Skills Demonstrated
 * Network reconnaissance and analysis
 * Vulnerability identification and exploitation (controlled environment)
 * Log analysis and interpretation
